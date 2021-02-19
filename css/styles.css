@@ -1,0 +1,185 @@
+body {
+  color: #eeeeee;
+  background-color: #222831;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  background-color: #222831;
+  padding-top: 30px;
+}
+
+nav {
+  background-color: #222831;
+  margin: 10px auto;
+}
+
+main {
+  background-color: #393e46;
+  padding: 100px 0 50px;
+  width: 60%;
+  margin: auto;
+}
+
+footer {
+  background-color: #222831;
+  padding: 40px 0 20px;
+}
+
+h1 {
+  color: #00adb5;
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px purple;
+}
+
+h2 {
+  color: #00adb5;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #00adb5;
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #222831 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 75px auto;
+}
+
+a {
+  color: #00adb5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin: 10px 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eeeeee;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 60%;
+  margin: 40px auto 40px;
+}
+
+.copyright {
+  color: #eeeeee;
+  font-size: 0.75rem;
+  padding-top: 40px;
+}
+
+.pixelheader {
+  width: 60%;
+  vertical-align: bottom;
+  margin-top: 25px;
+}
+
+.webdev-img {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.python-img {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  background: darkcyan;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #00adb5;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.under-construction {
+  font-size: 3rem;
+}
+
+@media (max-width: 1024px) {
+  main {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  hr {
+    border-width: 10px;
+  }
+
+  a {
+    font-size: 2rem;
+  }
+
+  .pixelheader {
+    width: 100%;
+  }
+
+  .skill-row {
+    width: 90%;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .contact-message {
+    width: 90%;
+  }
+
+  .btn {
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+  }
+}
